@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <com.crincongtz.multiselectspinner.MultiSelectionSpinner
+        android:id="@+id/mySpinner1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/getSelected"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Check"/>
+
+    <com.crincongtz.multiselectspinner.MultiSpinner
+        android:id="@+id/multi_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background_spinner"
+        android:textAlignment="textEnd"
+        android:paddingStart="2dp"
+        android:paddingEnd="24dp"
+        />
+
+</LinearLayout>
